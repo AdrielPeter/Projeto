@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    background-color: #CDB4B4;
+}
+#container-topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+#container-topo > img{
+    border-radius:20px;
+}
+header > #container-topo > nav > a{
+    text-decoration: none;
+    background-color: #493636;
+    color: #CDB4B4;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
+}
+header > #container-topo > nav > a:hover{
+    text-decoration: none;
+    background-color: azure;
+    color: #493636;
+}
+body{
+    background-color: #493636;
+    font-family:'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+section{
+    padding: 20px;
+}
+section > #title-photo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section > #title-photo1 > img{
+    min-width: 250px;
+    max-width: 400px ;
+}
+section > #title-photo2 > img{
+    min-width: 250px;
+    max-width: 400px;
+}    
+section > #title-photo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#products {
+    margin-bottom: 200px;
+}
+h2{
+    color: #846262;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 20px;
+}
+p{
+    color: #CDB4B4;
+    padding: 30px;
+}
+/*FOTOS PRODUTOS*/
+#box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#box-photos > p{
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+#box-photos > img{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #CDB4B4;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+}
+footer{
+    background-color: #CDB4B4;
+    padding:20px;
+}
+footer > p{
+    text-align: center;
+    padding: 0;
+}
+footer > p > a{
+    text-decoration: none;
+    color: #846262;
+}
+footer > p > a:hover{
+    text-decoration: none;
+    color:whitesmoke;
+}
