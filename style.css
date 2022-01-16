@@ -20,6 +20,7 @@ header{
 }
 #container-topo > img{
     border-radius:20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
 }
 header > #container-topo > nav > a{
     text-decoration: none;
@@ -39,6 +40,10 @@ body{
     background-color: #493636;
     font-family:'Roboto', sans-serif;
     font-size: 1.2em;
+}
+main{
+    max-width: 900px;
+    margin: auto;
 }
 section{
     padding: 20px;
@@ -73,6 +78,7 @@ h2{
 p{
     color: #CDB4B4;
     padding: 30px;
+    text-indent: 50px;
 }
 /*FOTOS PRODUTOS*/
 #box{
@@ -86,6 +92,7 @@ p{
     padding: 10px;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+    text-indent: 0;
 }
 #box-photos > img{
     max-width: 200px;
